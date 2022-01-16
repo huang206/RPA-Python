@@ -307,7 +307,7 @@ def setup():
         print('[RPA][INFO] - ' + home_directory)
 
         # set tagui zip download url and download zip for respective operating systems
-        tagui_zip_url = 'https://github.com/tebelorg/Tump/releases/download/v1.0.0/' + tagui_zip_file 
+        tagui_zip_url = 'http://github.com/tebelorg/Tump/releases/download/v1.0.0/' + tagui_zip_file 
         if not download(tagui_zip_url, home_directory + '/' + tagui_zip_file):
             # error message is shown by download(), no need for message here 
             return False
